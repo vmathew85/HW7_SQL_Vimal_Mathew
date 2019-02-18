@@ -5,10 +5,12 @@ Each question from the homework has been numbered with hashtags. The SQL related
 For example:
 
 #1a
+
 select first_name, last_name
 from actor;
 
 #1b
+
 select concat(upper(first_name),upper(last_name)) AS 'Actor Name'
 from actor;
 
